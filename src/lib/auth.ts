@@ -1,8 +1,8 @@
+//src/lib/auth.ts
 import jwt from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
 import { executeQuery } from './database';
 import { Personal, AuthUser } from '@/types/database';
-
 const JWT_SECRET = process.env.JWT_SECRET!;
 
 export interface AuthToken {

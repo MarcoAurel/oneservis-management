@@ -1,3 +1,4 @@
+//src/hooks/useAuth.ts
 'use client';
 
 import React, { useState, useEffect, createContext, useContext } from 'react';
